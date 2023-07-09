@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/links"
+        android:title="Links"
+        app:showAsAction="always"
+        android:icon="@drawable/mailimg"/>
+    <item
+        android:id="@+id/course"
+        android:title="Course"
+        app:showAsAction="always"
+        android:icon="@drawable/course"/>
+
+    <item
+        android:id="@+id/nonusable"
+        android:title=""
+        app:showAsAction="never"
+        android:icon="@drawable/controlsimg"/>
+
+    <item
+        android:id="@+id/campaigns"
+        android:title="Campaigns"
+        app:showAsAction="always"
+        android:icon="@drawable/campaigns"/>
+    <item
+        android:id="@+id/profile"
+        android:title="Profile"
+        app:showAsAction="always"
+        android:icon="@drawable/profile"/>
+</menu>
